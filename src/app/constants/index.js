@@ -44,7 +44,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "ThreeJS Developer",
     icon: web,
   },
   {
@@ -123,6 +123,10 @@ const experiences = [
     icon: starbucks,
     iconBg: "#383E56",
     date: "May 2023 - June 2023",
+    github: {
+      link: "https://github.com/yourusername/bank-management-system",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", // GitHub icon URL
+    },
     points: [
       "Developed and maintained a Bank Management System using React.js and associated technologies.",
       "Collaborated with cross-functional teams to gather requirements and design user-friendly interfaces for banking operations.",
@@ -136,6 +140,10 @@ const experiences = [
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2024 - March 2024",
+    github: {
+      link: "https://github.com/yourusername/shopify-custom-themes",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    },
     points: [
       "Developed and customized Shopify themes using Liquid, HTML, CSS, and JavaScript.",
       "Optimized website speed and performance for better SEO rankings and user engagement.",
@@ -149,6 +157,10 @@ const experiences = [
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "July 2024 - Nov 2024",
+    github: {
+      link: "https://github.com/yourusername/mern-courses-website",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    },
     points: [
       "Developed a Full-Stack Course Website using MongoDB, Express.js, React.js, and Node.js (MERN Stack).",
       "Implemented user authentication with JWT for secure login and role-based access control.",
@@ -162,6 +174,10 @@ const experiences = [
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Dec 2024 - Jan 2025",
+    github: {
+      link: "https://github.com/yourusername/nextjs-portfolio",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    },
     points: [
       "Developed a personal portfolio using Next.js and Tailwind CSS with optimized performance and SEO.",
       "Implemented dynamic routing, dark mode, and interactive animations for a better user experience.",
@@ -225,7 +241,7 @@ const projects = [
       width: 800, // replace with actual width of induction.jpg
       height: 900 // replace with actual height of induction.jpg
     },
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Askulo/Induction-Program",
   },
   {
     name: "3D Gallery",
@@ -250,7 +266,7 @@ const projects = [
       width: 800, // replace with actual width of gallery.jpg
       height: 900 // replace with actual height of gallery.jpg
     },
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Askulo/Gallery?tab=readme-ov-file#readme",
   },
   {
     name: "Events Description",
@@ -275,7 +291,7 @@ const projects = [
       width: 800, // replace with actual width of events.jpg
       height: 900 // replace with actual height of events.jpg
     },
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Askulo/Painting",
   },
 ];
 
