@@ -20,7 +20,7 @@ const Stars = (props) => {
     ref.current.rotation.y -= delta / 15;
   });
   return (
-    <group rotation={[0, 0, Math.PI / 4]}>
+    <group rotation={[0.1, 0, Math.PI / 4]}>
       <Points
         ref={ref}
         position={[...sphere]}
